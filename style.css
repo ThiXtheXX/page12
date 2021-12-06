@@ -1,0 +1,55 @@
+body{
+    background-color: rgba(0, 255, 255, 0.712);
+    color:darkgoldenrod;
+    margin:0;
+}
+.row{
+    display:flex;
+    justify-content: space-around;
+    gap:3px;
+}
+ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    background-color: rgba(189, 183, 107, 0.342);
+    border-radius: 1rem;
+    padding:4px;
+}
+li{
+    margin-bottom:3px;
+}
+p{
+    font-size: 20px;
+}
+.down ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    justify-content: space-between;
+}
+.down ul a{
+    text-decoration: none;
+    color:darkgreen;
+    padding:3px;
+    font-size: 18px;
+}
+h1,h2,h3{
+    margin:0;
+}
+.down ul li{
+    background-color: rgba(169, 169, 169, 0.418);
+    border-radius: 1rem;
+    width:100px;
+    text-align: center;
+}
+.bimage{
+    background-image: url(./img2/1planet.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
